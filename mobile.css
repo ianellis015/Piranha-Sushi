@@ -1,0 +1,142 @@
+
+  /* Media query for tablet screens */
+  @media screen and (min-width: 561px) {
+      nav {
+         position:absolute;
+         display: flex;
+         justify-content: center;
+         left: 36%;
+      }
+      
+       .links {
+         display: flex;
+         justify-content: center;
+         padding-bottom: 20px;
+         
+       }
+       .contact-link {
+         display: flex;
+         justify-content: center;
+       }
+   
+       .card-image {
+         width: 100%;
+       }
+       .card {
+         width: 16.3em;
+         height:auto;
+       }
+       .card-container {
+         margin: 0.5em;
+       }
+       .heading {
+         display: flex;
+         text-align: center;
+         padding: 10px;
+       }
+       .subheading {
+         display: flex;
+         text-align: center;
+         font-size: 16px;
+       }
+   
+       .reviews-container {
+         width: 450px;
+       }
+       .card-header {
+         display: flex;
+         justify-content: center;
+         text-align: center;
+         font-size:60%;
+       }
+       .card-description {
+         display: none;
+       }
+       .sushi-roll {
+         width: 6em;
+         height: 6em;
+       }
+       .menu-card {
+         width: 10.5em;
+         height: 6em;
+       }
+       .menu-card2 {
+         width: 10.5em;
+         height: 6em;
+       }
+       .menu-card-container2 {
+         margin-left: 0.8em;
+       }
+     }
+  
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 560px) {
+   nav {
+      position:absolute;
+      display: flex;
+      justify-content: center;
+      left: 32%;
+   }
+   
+    .links {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+      
+    }
+    .contact-link {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card-image {
+      width: 100%;
+    }
+    .card {
+      width: 10.3em;
+      height:auto;
+    }
+    .card-container {
+      margin: 0.5em;
+    }
+    .heading {
+      display: flex;
+      text-align: center;
+      padding: 10px;
+    }
+    .subheading {
+      display: flex;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .reviews-container {
+      width: 345px;
+    }
+    .card-header {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size:60%;
+    }
+    .card-description {
+      display: none;
+    }
+    .sushi-roll {
+      width: 6rem;
+      height: 6rem;
+    }
+    .menu-card {
+      width: 10.5em;
+      height: 6em;
+    }
+    .menu-card2 {
+      width: 10.5em;
+      height: 6em;
+    }
+    .menu-card-container2 {
+      margin-left: 0.8em;
+    }
+  }
+  
